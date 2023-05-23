@@ -6,4 +6,4 @@ def about(request):
     return render(request, 'about.html', {'asd': a})
 
 def home(request):
-    return HttpResponse('this is not my home')
+    return render(request, 'home.html')
